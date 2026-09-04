@@ -1,0 +1,23 @@
+# Tuple operations
+t = (10, 20, 30, 40)
+print(&quot;Tuple element:&quot;, t[1])
+# Set operations
+s = {1, 2, 3, 4}
+s.add(5)
+s.remove(2)
+print(&quot;Set:&quot;, s)
+# Dictionary operations
+student = {&quot;name&quot;: &quot;Amit&quot;, &quot;age&quot;: 20, &quot;marks&quot;: 85}
+# Accessing values
+print(&quot;Name:&quot;, student[&quot;name&quot;])
+# Updating values
+student[&quot;marks&quot;] = 90
+# Adding new key
+student[&quot;city&quot;] = &quot;Nagpur&quot;
+# Deleting key
+del student[&quot;age&quot;]
+print(&quot;Updated Dictionary:&quot;, student)
+# Built-in functions
+print(&quot;Dictionary keys:&quot;, student.keys())
+print(&quot;Dictionary values:&quot;, student.values())
+print(&quot;Dictionary items:&quot;, student.items())
